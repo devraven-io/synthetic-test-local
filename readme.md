@@ -4,18 +4,44 @@ This project helps you develop and execute your Synthetic tests in your local ma
 
 ## Requirements
 
-node v17.8.0
-npm v8.5.5
+node v16
+npm v8
 
-To install required browsers for Playwright execution, run `npx playwright@1.21.1 install`
+## Installation
 
-## How to setup
+1. Install NVM 
+```
+$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 
-1. Clone this repository to your local machine.
-2. cd synthetic-test-local
-3. npm install
+$ export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-Your local environment is now ready.
+```
+
+2. Install node v16
+
+```
+$ nvm install 16
+
+```
+
+3. Install Playwright w/ browsers and required dependencies
+
+```
+$ npx playwright@1.21.1 install
+$ npx playwright@1.21.1 install-deps
+
+```
+
+4. Clone the git repository and install dependencies
+
+```
+$ git clone https://github.com/devraven-io/synthetic-test-local.git
+$ cd synthetic-test-local
+$ npm install
+
+```
 
 ## How to run?
 
