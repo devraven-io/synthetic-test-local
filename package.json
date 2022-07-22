@@ -1,0 +1,22 @@
+{
+  "name": "synthetic-test-local",
+  "version": "1.0.0",
+  "description": "Scaffolding for Synthetic test development and execution locally",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "KC",
+  "license": "MIT",
+  "devDependencies": {
+    "@faker-js/faker": "^6.3.1",
+    "axios": "^0.27.2",
+    "chai": "^4.3.6",
+    "crypto-js": "^4.1.1",
+    "expect": "^28.1.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.3",
+    "playwright": "^1.21.1",
+    "vm2": "^3.9.9"
+  }
+}
