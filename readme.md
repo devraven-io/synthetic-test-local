@@ -16,14 +16,12 @@ $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bas
 $ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
 ```
 
 2. Install node v16
 
 ```
 $ nvm install 16
-
 ```
 
 3. Install Playwright w/ browsers and required dependencies
@@ -31,7 +29,6 @@ $ nvm install 16
 ```
 $ npx playwright@1.21.1 install
 $ npx playwright@1.21.1 install-deps
-
 ```
 
 4. Clone the git repository and install dependencies
@@ -40,12 +37,11 @@ $ npx playwright@1.21.1 install-deps
 $ git clone https://github.com/devraven-io/synthetic-test-local.git
 $ cd synthetic-test-local
 $ npm install
-
 ```
 
 ## How to run?
 
-Run `npm start` to kick-off a run. The example test runs in headed mode and launches a new browser to start the test.
+Run `npm start` to kick-off a run.
 
 ```
 $ npm start
@@ -55,7 +51,6 @@ $ npm start
 
 bar
 Test passed
-
 ```
 
 ## Adding a new test
