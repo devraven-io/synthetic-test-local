@@ -5,6 +5,7 @@ This project helps you develop and execute your Synthetic tests in your local ma
 ## Requirements
 
 node v16
+
 npm v8
 
 ## Installation
