@@ -2,6 +2,8 @@
 
 This project helps you develop and execute your Synthetic tests in your local machine before adding those DevRaven for monitoring.
 
+Although this is not the exact runtime environment when your synthetic tests are executed in DevRaven, this repository closely resembles the restrictions and third-party libraries you can use in your scripts. There can be scenarios where script may pass in your environment, but they may fail when executed from DevRaven monitoring site. Please check the console logs or add additional debug statements to identify the root cause in such scenarios.
+
 ## Requirements
 
 node v16
